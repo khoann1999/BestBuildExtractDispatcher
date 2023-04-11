@@ -1,0 +1,651 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 1,
+        "idRef": "NExtractDataGeneric`1_3",
+        "hash": "NExtractDataGeneric`1_3|DataTable|mmAsiAKa9OTdGazfWFVnGdLpZ41mkZ5aAlhq6jtbw8Y",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Menu",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Menu Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable1",
+        "hash": "NExtractDataGeneric`1_3|DataTable|iyxm2OjAEtrIGU8jId7BlWP6R2sKph4RMkF5mYCfdXs",
+        "assemblyName": "Studio.Generated.TypedDataTable1"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 2,
+        "idRef": "NExtractDataGeneric`1_4",
+        "hash": "NExtractDataGeneric`1_4|DataTable|mmAsiAKa9OTdGazfWFVnGdLpZ41mkZ5aAlhq6jtbw8Y",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Menu",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Menu Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable2",
+        "hash": "NExtractDataGeneric`1_4|DataTable|iyxm2OjAEtrIGU8jId7BlWP6R2sKph4RMkF5mYCfdXs",
+        "assemblyName": "Studio.Generated.TypedDataTable2"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 3,
+        "idRef": "NExtractDataGeneric`1_2",
+        "hash": "NExtractDataGeneric`1_2|DataTable|MFFFNc3twqN9656Lv2KSdBm8oxv4kFeDmjtFYKV1pJo",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Title",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Product Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable3",
+        "hash": "NExtractDataGeneric`1_2|DataTable|CMGT30YrJ6o4cuH5v9n12hEnZSyMz3UFuSy95j97w",
+        "assemblyName": "Studio.Generated.TypedDataTable3"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 4,
+        "idRef": "NExtractDataGeneric`1_3",
+        "hash": "NExtractDataGeneric`1_3|DataTable|MFFFNc3twqN9656Lv2KSdBm8oxv4kFeDmjtFYKV1pJo",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Title",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Product Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable4",
+        "hash": "NExtractDataGeneric`1_3|DataTable|CMGT30YrJ6o4cuH5v9n12hEnZSyMz3UFuSy95j97w",
+        "assemblyName": "Studio.Generated.TypedDataTable4"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 5,
+        "idRef": "NExtractDataGeneric`1_6",
+        "hash": "NExtractDataGeneric`1_6|DataTable|mmAsiAKa9OTdGazfWFVnGdLpZ41mkZ5aAlhq6jtbw8Y",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Menu",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Menu Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable5",
+        "hash": "NExtractDataGeneric`1_6|DataTable|iyxm2OjAEtrIGU8jId7BlWP6R2sKph4RMkF5mYCfdXs",
+        "assemblyName": "Studio.Generated.TypedDataTable5"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 6,
+        "idRef": "NExtractDataGeneric`1_1",
+        "hash": "NExtractDataGeneric`1_1|DataTable|d8XsDq39dg9EGyorM7r5w5rVwvsgBKmXr1uu8LWR4",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Menu Title",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Menu Title Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable6",
+        "hash": "NExtractDataGeneric`1_1|DataTable|QdmoJ9CoE5mGdvHQ4lbcKTB6J1gpJQBqp6ztYr8",
+        "assemblyName": "Studio.Generated.TypedDataTable6"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 7,
+        "idRef": "NExtractDataGeneric`1_10",
+        "hash": "NExtractDataGeneric`1_10|DataTable|d8XsDq39dg9EGyorM7r5w5rVwvsgBKmXr1uu8LWR4",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Menu Title",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Menu Title Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable7",
+        "hash": "NExtractDataGeneric`1_10|DataTable|QdmoJ9CoE5mGdvHQ4lbcKTB6J1gpJQBqp6ztYr8",
+        "assemblyName": "Studio.Generated.TypedDataTable7"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 8,
+        "idRef": "NExtractDataGeneric`1_12",
+        "hash": "NExtractDataGeneric`1_12|DataTable|mmAsiAKa9OTdGazfWFVnGdLpZ41mkZ5aAlhq6jtbw8Y",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Menu",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Menu Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable8",
+        "hash": "NExtractDataGeneric`1_12|DataTable|iyxm2OjAEtrIGU8jId7BlWP6R2sKph4RMkF5mYCfdXs",
+        "assemblyName": "Studio.Generated.TypedDataTable8"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 9,
+        "idRef": "NExtractDataGeneric`1_13",
+        "hash": "NExtractDataGeneric`1_13|DataTable|mmAsiAKa9OTdGazfWFVnGdLpZ41mkZ5aAlhq6jtbw8Y",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Menu",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Menu Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable9",
+        "hash": "NExtractDataGeneric`1_13|DataTable|iyxm2OjAEtrIGU8jId7BlWP6R2sKph4RMkF5mYCfdXs",
+        "assemblyName": "Studio.Generated.TypedDataTable9"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 10,
+        "idRef": "NExtractDataGeneric`1_17",
+        "hash": "NExtractDataGeneric`1_17|DataTable|d8XsDq39dg9EGyorM7r5w5rVwvsgBKmXr1uu8LWR4",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Menu Title",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Menu Title Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable10",
+        "hash": "NExtractDataGeneric`1_17|DataTable|QdmoJ9CoE5mGdvHQ4lbcKTB6J1gpJQBqp6ztYr8",
+        "assemblyName": "Studio.Generated.TypedDataTable10"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 11,
+        "idRef": "NExtractDataGeneric`1_1",
+        "hash": "NExtractDataGeneric`1_1|DataTable|WazQ656oM8I7328YY59wfUvui8s662npg9InFBHcj0o",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "New column 0",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable11",
+        "hash": "NExtractDataGeneric`1_1|DataTable|Ghx7B0xVJtichchhVeG4apthku6gjAJEA9PMyNWrA",
+        "assemblyName": "Studio.Generated.TypedDataTable11"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 12,
+        "idRef": "NExtractDataGeneric`1_18",
+        "hash": "NExtractDataGeneric`1_18|DataTable|d8XsDq39dg9EGyorM7r5w5rVwvsgBKmXr1uu8LWR4",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Menu Title",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Menu Title Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable12",
+        "hash": "NExtractDataGeneric`1_18|DataTable|QdmoJ9CoE5mGdvHQ4lbcKTB6J1gpJQBqp6ztYr8",
+        "assemblyName": "Studio.Generated.TypedDataTable12"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 13,
+        "idRef": "NExtractDataGeneric`1_19",
+        "hash": "NExtractDataGeneric`1_19|DataTable|d8XsDq39dg9EGyorM7r5w5rVwvsgBKmXr1uu8LWR4",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Menu Title",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Menu Title Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable13",
+        "hash": "NExtractDataGeneric`1_19|DataTable|QdmoJ9CoE5mGdvHQ4lbcKTB6J1gpJQBqp6ztYr8",
+        "assemblyName": "Studio.Generated.TypedDataTable13"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 14,
+        "idRef": "NExtractDataGeneric`1_1",
+        "hash": "NExtractDataGeneric`1_1|DataTable|hf1dKSZFJ6a2FlfuUJrmAeoC7C3pNYnydAVfVyQL0",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Menu Title",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Menu Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable14",
+        "hash": "NExtractDataGeneric`1_1|DataTable|8DEjNBhpo5p02OdUVqybGWzkqCRmYsvaRpphMO870Y",
+        "assemblyName": "Studio.Generated.TypedDataTable14"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 15,
+        "idRef": "NExtractDataGeneric`1_22",
+        "hash": "NExtractDataGeneric`1_22|DataTable|hf1dKSZFJ6a2FlfuUJrmAeoC7C3pNYnydAVfVyQL0",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Menu Title",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Menu Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable15",
+        "hash": "NExtractDataGeneric`1_22|DataTable|8DEjNBhpo5p02OdUVqybGWzkqCRmYsvaRpphMO870Y",
+        "assemblyName": "Studio.Generated.TypedDataTable15"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 16,
+        "idRef": "ReadRangeConnections`1_2",
+        "hash": "ReadRangeConnections`1_2|DataTable|b7pGh4QQHX8BxVYj7FdqPatIrirbmk5qhkgykrpmVVQ",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Asset",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "OrchestratorAssetFolder",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Description (Assets will always overwrite other config)",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable16",
+        "hash": "ReadRangeConnections`1_2|DataTable|JZDfS7GcGXS8yKSrfOYIbdqlDzmP2joB1asr74Y",
+        "assemblyName": "Studio.Generated.TypedDataTable16"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 17,
+        "idRef": "ReadRangeConnections`1_3",
+        "hash": "ReadRangeConnections`1_3|DataTable|OhtQmk6G7S7XhxcGBFlL5BZ8Ind98SW8OIdSNITkEJo",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Value",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Description",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable17",
+        "hash": "ReadRangeConnections`1_3|DataTable|k7ASM6F2gPRpNgsUnn3QCiVZsYeGgyGWfP0RG9KmY",
+        "assemblyName": "Studio.Generated.TypedDataTable17"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 18,
+        "idRef": "ReadRangeConnections`1_3",
+        "hash": "ReadRangeConnections`1_3|DataTable|b7pGh4QQHX8BxVYj7FdqPatIrirbmk5qhkgykrpmVVQ",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Asset",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "OrchestratorAssetFolder",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Description (Assets will always overwrite other config)",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable18",
+        "hash": "ReadRangeConnections`1_3|DataTable|JZDfS7GcGXS8yKSrfOYIbdqlDzmP2joB1asr74Y",
+        "assemblyName": "Studio.Generated.TypedDataTable18"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 19,
+        "idRef": "ReadRangeConnections`1_4",
+        "hash": "ReadRangeConnections`1_4|DataTable|OhtQmk6G7S7XhxcGBFlL5BZ8Ind98SW8OIdSNITkEJo",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Value",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Description",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable19",
+        "hash": "ReadRangeConnections`1_4|DataTable|k7ASM6F2gPRpNgsUnn3QCiVZsYeGgyGWfP0RG9KmY",
+        "assemblyName": "Studio.Generated.TypedDataTable19"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 20,
+        "idRef": "ReadRangeConnections`1_5",
+        "hash": "ReadRangeConnections`1_5|DataTable|OhtQmk6G7S7XhxcGBFlL5BZ8Ind98SW8OIdSNITkEJo",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Value",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Description",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable20",
+        "hash": "ReadRangeConnections`1_5|DataTable|k7ASM6F2gPRpNgsUnn3QCiVZsYeGgyGWfP0RG9KmY",
+        "assemblyName": "Studio.Generated.TypedDataTable20"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 21,
+        "idRef": "ReadRangeConnections`1_5",
+        "hash": "ReadRangeConnections`1_5|DataTable|0RLg3ESffzCUscD11FRacBL7rzQ9vTC5wPuKcSBsT4",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable21",
+        "hash": "ReadRangeConnections`1_5|DataTable|QxLHovX0RGNQwmvyuxSE40jsfAOMh74PuGX9rF487w",
+        "assemblyName": "Studio.Generated.TypedDataTable21"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 22,
+        "idRef": "ReadRangeConnections`1_5",
+        "hash": "ReadRangeConnections`1_5|DataTable|b7pGh4QQHX8BxVYj7FdqPatIrirbmk5qhkgykrpmVVQ",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Asset",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "OrchestratorAssetFolder",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Description (Assets will always overwrite other config)",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable22",
+        "hash": "ReadRangeConnections`1_5|DataTable|JZDfS7GcGXS8yKSrfOYIbdqlDzmP2joB1asr74Y",
+        "assemblyName": "Studio.Generated.TypedDataTable22"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 23,
+        "idRef": "ReadRangeConnections`1_6",
+        "hash": "ReadRangeConnections`1_6|DataTable|b7pGh4QQHX8BxVYj7FdqPatIrirbmk5qhkgykrpmVVQ",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Asset",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "OrchestratorAssetFolder",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Description (Assets will always overwrite other config)",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable23",
+        "hash": "ReadRangeConnections`1_6|DataTable|JZDfS7GcGXS8yKSrfOYIbdqlDzmP2joB1asr74Y",
+        "assemblyName": "Studio.Generated.TypedDataTable23"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 24,
+        "idRef": "ReadRangeConnections`1_6",
+        "hash": "ReadRangeConnections`1_6|DataTable|OhtQmk6G7S7XhxcGBFlL5BZ8Ind98SW8OIdSNITkEJo",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Value",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Description",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable24",
+        "hash": "ReadRangeConnections`1_6|DataTable|k7ASM6F2gPRpNgsUnn3QCiVZsYeGgyGWfP0RG9KmY",
+        "assemblyName": "Studio.Generated.TypedDataTable24"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 25,
+        "idRef": "ReadRangeConnections`1_7",
+        "hash": "ReadRangeConnections`1_7|DataTable|OhtQmk6G7S7XhxcGBFlL5BZ8Ind98SW8OIdSNITkEJo",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Value",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Description",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable25",
+        "hash": "ReadRangeConnections`1_7|DataTable|k7ASM6F2gPRpNgsUnn3QCiVZsYeGgyGWfP0RG9KmY",
+        "assemblyName": "Studio.Generated.TypedDataTable25"
+      }
+    }
+  ]
+}
