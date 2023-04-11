@@ -5,6 +5,7 @@
 
 .settings/
 .local/
+.project/
 .screenshots/
 .templates/
 .tmh/
