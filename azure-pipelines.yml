@@ -13,7 +13,7 @@ steps:
 - task: UiPathPack@3
   inputs:
     versionType: 'AutoVersion'
-    projectJsonPath: '$(Build.ArtifactStagingDirectory)\Output\project.json'
+    projectJsonPath: 'project.json'
     orchestratorConnection: 'UiPath'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     runWorkflowAnalysis: true
