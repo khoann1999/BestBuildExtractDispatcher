@@ -9,11 +9,6 @@ trigger:
 pool:
   vmImage: windows-2022
 steps:
-- task: UseDotNet@2
-  inputs:
-    packageType: 'sdk'
-    version: '6.x'
-    includePreviewVersions: true
 - task: UiPathPack@3
   inputs:
     versionType: 'AutoVersion'
