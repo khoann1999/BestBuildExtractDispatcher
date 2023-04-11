@@ -4,7 +4,7 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.MicrosoftOffice365.Activities": "1.14.1",
-    "UiPath.System.Activities": "[22.10.5]",
+    "UiPath.System.Activities": "[21.10.6]",
     "UiPath.Testing.Activities": "[22.10.3]",
     "UiPath.UIAutomation.Activities": "[22.10.5]",
     "UiPath.WebAPI.Activities": "[1.13.3]"
