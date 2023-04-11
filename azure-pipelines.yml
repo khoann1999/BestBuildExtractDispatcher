@@ -9,6 +9,11 @@ trigger:
 pool:
   vmImage: windows-2022
 steps:
+
+- task: UiPathInstallPlatform@3
+  inputs:
+    cliVersion: 'X_22.10.8418.30339'
+    
 - task: UiPathPack@3
   inputs:
     versionType: 'AutoVersion'
