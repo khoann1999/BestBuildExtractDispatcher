@@ -13,7 +13,7 @@ steps:
 - task: UiPathInstallPlatform@3
   inputs:
     cliVersion: 'X_22.10.8418.30339'
-    cliNupkgPath: '$(Agent.ToolsDirectory)\nupkg\UiPath.CLI.X_22.10.8418.30339.nupkg'
+    cliNupkgPath: '$(Agent.ToolsDirectory)\nupkg\UiPath.CLI.X.22.10.8418.30339.nupkg'
 - task: UiPathPack@3
   inputs:
     versionType: 'AutoVersion'
