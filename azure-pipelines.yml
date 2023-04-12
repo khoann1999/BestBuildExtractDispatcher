@@ -7,7 +7,7 @@
 trigger:
 - main
 pool:
-  vmImage: windows-2022
+  vmImage: ubuntu-latest
 steps:
 
 - task: UiPathInstallPlatform@3
