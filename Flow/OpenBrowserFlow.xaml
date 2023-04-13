@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1446.2857142857142,1294.857142857143</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1455.4285714285713,1310.857142857143</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>OpenBrowserSequence_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -50,6 +50,8 @@
     <sco:Collection x:TypeArguments="AssemblyReference">
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable1</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable2</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>System.Collections</AssemblyReference>
@@ -73,6 +75,9 @@
       <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
       <AssemblyReference>System.Private.Uri</AssemblyReference>
       <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
       <AssemblyReference>System.Security.Permissions</AssemblyReference>
@@ -82,33 +87,16 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
       <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
       <AssemblyReference>WindowsBase</AssemblyReference>
-      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
-      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
-      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
-      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable1</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable2</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable3</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable4</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable9</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable6</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable11</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable10</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable5</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable12</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable8</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable7</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable13</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable14</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OpenBrowserSequence" sap:VirtualizedContainerService.HintSize="587.4285714285714,1229.7142857142858" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OpenBrowserSequence" sap:VirtualizedContainerService.HintSize="587.4285714285714,1245.7142857142858" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:UiElement" Name="BrowserElement" />
     </Sequence.Variables>
@@ -117,7 +105,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Use Browser: PhongVu.vn | Laptop, PC, Màn hình, điện thoại, linh kiện Chính Hãng" sap:VirtualizedContainerService.HintSize="525.7142857142857,1119.4285714285713" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" OutUiElement="[BrowserElement]" ScopeGuid="af8c8245-9ad3-4391-85c3-5b8d75a370c0" Version="V2">
+    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Use Browser: PhongVu.vn | Laptop, PC, Màn hình, điện thoại, linh kiện Chính Hãng" sap:VirtualizedContainerService.HintSize="525.7142857142857,1135.4285714285713" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" OutUiElement="[BrowserElement]" ScopeGuid="af8c8245-9ad3-4391-85c3-5b8d75a370c0" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="ConfigSequence" this:ConfigSequence.in_ConfigFile="Data\Config.xlsx" this:ConfigSequence.in_ConfigSheets="[{&quot;Settings&quot;,&quot;Constants&quot;}]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable25" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:umae="clr-namespace:UiPath.MicrosoftOffice365.Activities.Excel;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umafe="clr-namespace:UiPath.MicrosoftOffice365.Activities.Files.Enums;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="ConfigSequence" this:ConfigSequence.in_ConfigFile="Data\Config.xlsx" this:ConfigSequence.in_ConfigSheets="[{&quot;Settings&quot;,&quot;Constants&quot;}]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable1" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:umae="clr-namespace:UiPath.MicrosoftOffice365.Activities.Excel;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umafe="clr-namespace:UiPath.MicrosoftOffice365.Activities.Files.Enums;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property sap2010:Annotation.AnnotationText="Path to the configuration file that defines settings, constants and assets." Name="in_ConfigFile" Type="InArgument(x:String)" />
     <x:Property sap2010:Annotation.AnnotationText="Names of the sheets corresponding to settings and constants in the configuration file." Name="in_ConfigSheets" Type="InArgument(s:String[])" />
@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1136,931.4285714285714</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>502.2857142857142,1056.5714285714287</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ConfigSequence_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -51,81 +51,58 @@
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
-      <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
-      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable1</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable2</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Data</AssemblyReference>
       <AssemblyReference>System.Data.Common</AssemblyReference>
       <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
-      <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Drawing</AssemblyReference>
-      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>System.Xaml</AssemblyReference>
-      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
-      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
       <AssemblyReference>UiPath.MicrosoftOffice365</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
-      <AssemblyReference>WindowsBase</AssemblyReference>
-      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
-      <AssemblyReference>System.ComponentModel</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
-      <AssemblyReference>System.ObjectModel</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
-      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
-      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
-      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
-      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
-      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
-      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
-      <AssemblyReference>System.Collections</AssemblyReference>
-      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
-      <AssemblyReference>System.Memory.Data</AssemblyReference>
-      <AssemblyReference>System.Security.Permissions</AssemblyReference>
-      <AssemblyReference>System.Console</AssemblyReference>
-      <AssemblyReference>System.Memory</AssemblyReference>
-      <AssemblyReference>System.Private.Uri</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable16</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable13</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable8</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable11</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable15</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable14</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable2</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable5</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable4</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable10</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable7</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable12</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable9</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable3</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable6</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable1</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable18</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable17</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable19</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable20</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable21</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable22</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable23</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable24</AssemblyReference>
-      <AssemblyReference>Studio.Generated.TypedDataTable25</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ConfigSequence" sap:VirtualizedContainerService.HintSize="512,991.4285714285716" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ConfigSequence" sap:VirtualizedContainerService.HintSize="512,991.4285714285714" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd1:DataTable" Name="dt_config" />
-      <Variable x:TypeArguments="sd:DataTable25" Name="Config" />
+      <Variable x:TypeArguments="sd:DataTable1" Name="Config" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -133,7 +110,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message (Initialize All Settings)" sap:VirtualizedContainerService.HintSize="450.2857142857143,145.71428571428572" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Initializing settings...&quot;]" />
-    <umae:ReadRangeConnections x:TypeArguments="sd:DataTable25" ConnectionAccountName="{x:Null}" GlobalRange="{x:Null}" PivotTableName="{x:Null}" PivotTableWorksheetName="{x:Null}" RangeAddress="{x:Null}" TableName="{x:Null}" TemplateBrowserDriveName="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" TemplateBrowserSiteUrl="{x:Null}" Workbook="{x:Null}" WorkbookSample="{x:Null}" BrowserDriveId="2158527b88b1226f" BrowserItemFriendlyName="Config.xlsx" BrowserItemId="2158527B88B1226F!48777" ConnectionId="19aad091-e4bd-4d5d-9483-d157b041de5b" DisplayName="Read Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="450.2857142857143,384.57142857142856" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_7" ItemSelectionMode="Browse" Range="Settings" RangeType="Default" RangeWorksheetName="Settings" ReadAs="[UiPath.MicrosoftOffice365.Enums.ValuesType.Formulas]" Result="[Config]" SheetName="Constants" UseConnectionService="True" WorkingWithTemplateWorkbook="False">
+    <umae:ReadRangeConnections x:TypeArguments="sd:DataTable1" ConnectionAccountName="{x:Null}" GlobalRange="{x:Null}" PivotTableName="{x:Null}" PivotTableWorksheetName="{x:Null}" RangeAddress="{x:Null}" RangeWorksheetName="{x:Null}" SheetName="{x:Null}" TableName="{x:Null}" TemplateBrowserDriveName="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" TemplateBrowserSiteUrl="{x:Null}" Workbook="{x:Null}" WorkbookSample="{x:Null}" BrowserDriveId="2158527b88b1226f" BrowserItemFriendlyName="Config.xlsx" BrowserItemId="2158527B88B1226F!48777" ConnectionId="19aad091-e4bd-4d5d-9483-d157b041de5b" DisplayName="Read Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="450.2857142857143,384.57142857142856" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="Settings" RangeType="Default" ReadAs="Values" Result="[Config]" UseConnectionService="True" WorkingWithTemplateWorkbook="False">
       <umae:ReadRangeConnections.BrowserDriveName>
         <InArgument x:TypeArguments="x:String" />
       </umae:ReadRangeConnections.BrowserDriveName>
@@ -160,7 +137,7 @@
         <OutArgument x:TypeArguments="sd1:DataTable">[dt_config]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="sd:DataTable25">[Config]</InArgument>
+        <InArgument x:TypeArguments="sd:DataTable1">[Config]</InArgument>
       </Assign.Value>
     </Assign>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450.2857142857143,145.71428571428572" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;ttrest&quot;]" />
