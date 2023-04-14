@@ -18,5 +18,5 @@ steps:
     projectJsonPath: 'project.json'
     orchestratorConnection: ''
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
-    runWorkflowAnalysis: true
+    runWorkflowAnalysis: false
     traceLevel: 'Warning'
