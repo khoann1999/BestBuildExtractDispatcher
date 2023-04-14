@@ -20,9 +20,3 @@ steps:
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     runWorkflowAnalysis: true
     traceLevel: 'Warning'
-- task: UiPathDeploy@3
-  inputs:
-    orchestratorConnection: 'UiPath'
-    packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-    folderName: 'Deployment'
-    traceLevel: 'Warning'
