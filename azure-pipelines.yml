@@ -12,7 +12,10 @@ steps:
 - task: UiPathInstallPlatform@3
   inputs:
     cliVersion: 'X_22.10.8418.30339'
-
+- task: NuGetToolInstaller@1
+  inputs:
+    versionSpec: '6.5.0'
+    checkLatest: true
 - task: UiPathPack@3
   inputs:
     versionType: 'AutoVersion'
