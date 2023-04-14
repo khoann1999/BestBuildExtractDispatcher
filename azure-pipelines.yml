@@ -7,15 +7,15 @@
 trigger:
 - main
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 steps:  
 - task: UiPathInstallPlatform@3
   inputs:
     cliVersion: 'X_22.10.8418.30339'
-- task: NuGetToolInstaller@1
+- task: UseDotNet@2
   inputs:
-    versionSpec: '6.5.0'
-    checkLatest: true
+    packageType: 'sdk'
+    useGlobalJson: true
 - task: UiPathPack@3
   inputs:
     versionType: 'AutoVersion'
@@ -24,3 +24,4 @@ steps:
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     runWorkflowAnalysis: false
     traceLevel: 'Warning'
+    
