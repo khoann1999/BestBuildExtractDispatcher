@@ -7,11 +7,11 @@
 trigger:
 - main
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 steps:  
 - task: UiPathInstallPlatform@3
   inputs:
-    cliVersion: 'X_22.10.8418.30339'
+    cliVersion: 'WIN_22.10.8418.30339'
 - task: UiPathPack@3
   inputs:
     versionType: 'AutoVersion'
@@ -20,6 +20,13 @@ steps:
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     runWorkflowAnalysis: false
     traceLevel: 'Warning'
+- task: UiPathDeploy@3
+  inputs:
+    orchestratorConnection: 'UiPath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
+    folderName: 'Deployment'
+    traceLevel: 'Warning'
+
 - task: UiPathRunJob@3
   inputs:
     orchestratorConnection: 'UiPath'
