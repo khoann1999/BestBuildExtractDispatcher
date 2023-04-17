@@ -32,5 +32,5 @@ steps:
     orchestratorConnection: 'UiPath'
     processName: 'TestProcess'
     folderName: 'Deployment'
-    user: 'Linux\khoann1999@gmail.com'
+    user: 'khoann1999@gmail.com'
     machine: 'Linux'
