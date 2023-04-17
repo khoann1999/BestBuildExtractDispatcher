@@ -12,6 +12,7 @@ steps:
 - task: UiPathInstallPlatform@3
   inputs:
     cliVersion: 'WIN_22.10.8418.30339'
+
 - task: UiPathPack@3
   inputs:
     versionType: 'AutoVersion'
@@ -20,7 +21,15 @@ steps:
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     runWorkflowAnalysis: false
     traceLevel: 'Warning'
-
+- task: UiPathTest@3
+  inputs:
+    testTarget: 'TestProject'
+    orchestratorConnection: 'UiPath'
+    testProjectPath: '$(Build.SourcesDirectory)\Test'
+    folderName: 'Deployment'
+    testReportDestination: '$(Build.ArtifactStagingDirectory)\Output'
+    traceLevel: 'Warning'
+    attachRobotLogs: true
 - task: UiPathDeploy@3
   inputs:
     orchestratorConnection: 'UiPath'
