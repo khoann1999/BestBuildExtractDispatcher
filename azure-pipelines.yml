@@ -21,6 +21,7 @@ steps:
     folderName: 'Deployment'
     traceLevel: 'Warning'
     attachRobotLogs: true
+    timeout: 200
 - task: UiPathPack@3
   inputs:
     versionType: 'AutoVersion'
