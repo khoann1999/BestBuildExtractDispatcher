@@ -15,7 +15,7 @@ steps:
 - task: UiPathTest@3
   inputs:
     testTarget: TestProject
-    orchestratorConnection: 'UiPath'
+    orchestratorConnection: 'UiPath2'
     testProjectPath: '$(Build.SourcesDirectory)'
     folderName: 'Deployment'
     traceLevel: 'Warning'
