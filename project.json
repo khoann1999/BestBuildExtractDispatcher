@@ -11,14 +11,7 @@
     "UiPath.WebAPI.Activities": "[1.16.2]"
   },
   "webServices": [],
-  "entitiesStores": [
-    {
-      "serviceDocument": ".entities/EntitiesStore.json",
-      "tenantName": "DefaultTenant",
-      "namespace": "DataExtractDispatcher",
-      "uniqueReference": "Hr3NLzNhjX7oAbrQsC3oCgmwF3sHGb4pYaIFO6mY7a8="
-    }
-  ],
+  "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.4.0.0",
   "projectVersion": "1.0.0",
