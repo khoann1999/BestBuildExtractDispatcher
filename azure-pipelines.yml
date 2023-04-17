@@ -16,7 +16,6 @@ steps:
   inputs:
     testTarget: TestProject
     orchestratorConnection: 'UiPath'
-    parametersFilePath: project.json
     testProjectPath: '$(Build.SourcesDirectory)'
     folderName: 'Deployment'
     traceLevel: 'Warning'
