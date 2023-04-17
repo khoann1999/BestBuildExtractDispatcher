@@ -14,9 +14,10 @@ steps:
     cliVersion: 'WIN_22.10.8418.30339'
 - task: UiPathTest@3
   inputs:
-    testTarget: 'TestProject'
+    testTarget: TestProject
     orchestratorConnection: 'UiPath'
-    testProjectPath: '$(Build.SourcesDirectory)\Test'
+    parametersFilePath: project.json
+    testProjectPath: '$(Build.SourcesDirectory)'
     folderName: 'Deployment'
     traceLevel: 'Warning'
     attachRobotLogs: true
