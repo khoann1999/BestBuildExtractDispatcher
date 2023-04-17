@@ -53,8 +53,10 @@
     "fileInfoCollection": [
       {
         "editingStatus": "InProgress",
-        "testCaseId": "8c3dd1c9-d8f2-45b9-936f-3f7174400e10",
+        "testCaseId": "6f5e6074-0803-4781-b8b8-747258d7d1e5",
+        "executionTemplatePath": "Test With Timeout (UiPath.Testing.Activities);UiPath.Testing.Activities;Test With Timeout.xaml",
         "testCaseType": "TestCase",
+        "executionTemplateType": "PackageFileTemplate",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Test\\TestCase.xaml"
       }
