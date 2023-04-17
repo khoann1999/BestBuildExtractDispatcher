@@ -25,7 +25,7 @@ steps:
   inputs:
     testTarget: 'TestProject'
     orchestratorConnection: 'UiPath'
-    testProjectPath: '$(Build.SourcesDirectory)\Test'
+    testProjectPath: '$(Build.ArtifactStagingDirectory)\Test'
     folderName: 'Deployment'
     testReportDestination: '$(Build.ArtifactStagingDirectory)\Output'
     traceLevel: 'Warning'
