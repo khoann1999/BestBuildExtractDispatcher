@@ -25,4 +25,10 @@ steps:
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     runWorkflowAnalysis: false
     traceLevel: 'Warning'
-    
+- task: UiPathRunJob@3
+  inputs:
+    orchestratorConnection: 'UiPath'
+    processName: 'TestProcess'
+    folderName: 'Deployment'
+    user: 'Linux\khoann1999@gmail.com'
+    machine: 'Linux'
